@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>海洋保护科普网</title>
+		<link rel="stylesheet" href="index.css" type="text/css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<script src="js/javascript.js"></script>
+		<script src="js/js.js"></script>
+		<script src="js/jt.js"></script>
+		<script>
+		<!--
+		function setTab(name, cursel, n) {
+		for (i = 1; i <= n; i++) {
+		var menu = document.getElementById(name + i);
+		var con = document.getElementById("con_" + name + "_" + i);
+		menu.className = i == cursel ? "hover" : "";
+		con.style.display = i == cursel ? "block" : "none";
+		}
+		}
+		//-->
+		</script>
+		<script>
+		<!--
+		function setT(name, cursel, n) {
+		for (i = 1; i <= n; i++) {
+		var m = document.getElementById(name + i);
+		var con = document.getElementById("con_" + name + "_" + i);
+		m.className = i == cursel ? "hover" : "";
+		con.style.display = i == cursel ? "block" : "none";
+		}
+		}
+		//-->
+		</script>
+	</head>
+	<body>
+		<!--头部区域开始-->
+		<div class="toubu">
+			<div class="tb">
+			<div class="logo">
+				<img src="image/logo_22.png" width="380px" height="50px"/>
+			</div>
+			<div class="ssk">
+				<input type="search" name="search" placeholder="请输入关键字">
+				<div id="search">搜索</div>
+			</div>
+			</div>
+		</div>
+		<!--头部区域结束-->
+		<!--导航条区域开始-->
+		<nav>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="hyst.html">海洋生态</a></li>
+				<li><a href="stwt.html">生态问题</a></li>
+				<li><a href="#">生态保护</a>
+				<ul>
+					<li><a href="stjs.html">生态建设</a></li>
+					<li><a href="dwbh.html">动物保护</a></li>
+				</ul>
+				</li>
+				<li><a href="gnqs.html">国内趋势</a></li>
+				<li><a href="#">海洋生物</a>
+				<ul>
+					<li><a href="brdw.html">哺乳动物</a></li>
+					<li><a href="hy.html">海鱼</a></li>
+					<li><a href="rtdw.html">软体动物</a></li>
+					<li><a href="hyzw.html">海洋植物</a></li>
+					<li><a href="pxjz.html">爬行、节肢动物</a></li>
+					<li><a href="qcwjz.html">腔肠、无脊椎</a></li>
+				</ul>
+				</li>
+				<li><a href="#">保护协会</a>
+				<ul>
+					<li><a href="lsd.html">蓝丝带海洋保护</a></li>
+					<li><a href="hybhz.html">海洋保护者</a></li>
+				</ul>
+				</li>
+				<li><a href="dl.html">退出</a></li>
+			</ul>
+		</nav>
+		<!--导航条区域结束-->
+		<!--动态banner区域开始-->
+		<div class="banner">
+			<img src="image/ad.jpg" id="pic" width="100%" height="500px"/>
+			<ul id="pic_list">
+				<li>
+					<a href="#" id="num1" onmouseover="showImg(1)" onmouseout="showOut()">●</a>
+					<a href="#" id="num2" onmouseover="showImg(2)" onmouseout="showOut()">●</a>
+					<a href="#" id="num3" onmouseover="showImg(3)" onmouseout="showOut()">●</a>
+					<a href="#" id="num4" onmouseover="showImg(4)" onmouseout="showOut()">●</a>
+					<a href="#" id="num5" onmouseover="showImg(5)" onmouseout="showOut()">●</a>
+					<a href="#" id="num6" onmouseover="showImg(6)" onmouseout="showOut()">●</a>
+				</li>
+			</ul>
+		</div>
+		<!--动态banner区域结束-->
+		<!--blank滚动文字开始-->
+		<div class="blank">
+		<div class="left">海保百科 &gt;&gt;</div>
+		<div class="right">
+		<div id="wrapper">
+			<ul>
+				<li><a target="blank" href="#" title="海洋孕育了人类的生命，海洋动物与人类的生存息息相关">&#8226;海洋孕育了人类的生命，海洋动物与人类的生存息息相关</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a target="blank" href="#" title="海洋是地球的主体、生命的摇篮、人类文明的源泉">&#8226;海洋是地球的主体、生命的摇篮、人类文明的源泉</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a target="blank" href="#" title="海洋生态系统影响着全球生态系统的稳定与安全">&#8226;海洋生态系统影响着全球生态系统的稳定与安全</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a target="blank" href="#" title="保护海洋有利于促进经济增长">&#8226;保护海洋有利于促进经济增长</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a target="blank" href="#" title="保护海洋环境有利于保证人的生存和发展，为人类提供宜居的环境">&#8226;保护海洋环境有利于保证人的生存和发展，为人类提供宜居的环境</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a target="blank" href="#" title="海洋是人类食物的重要来源之一">&#8226;海洋是人类食物的重要来源之一</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			</ul>
+		</div>
+		</div>
+		</div>
+		<!--blank滚动文字结束-->
+		<!--轮播图区域开始-->
+		<div class="lh">
+		<div class="l_l">
+			<div id="container">
+			<div id="photo">
+				<img src="image/l_1.png"/>
+				<img src="image/l_2.png"/>
+				<img src="image/l_3.png"/>
+				<img src="image/l_4.png"/>
+			</div>
+			</div>
+		</div>
+		<!--轮播图区域结束-->
+		<!--滑动板块开始-->
+		<div class="l_r">
+		<div id="Tab">
+		<div id="Menubox">
+			<ul>
+				<li id="menu1" onMouseOver="setTab('menu',1,3)" class="hover">中心动态</li>
+				<li id="menu2" onMouseOver="setTab('menu',2,3)">海洋档案</li>
+				<li id="menu3" onMouseOver="setTab('menu',3,3)">专题活动</li>
+			</ul>
+		</div>
+		<div id="Contentbox">
+		<div id="con_menu_1" class="hover">
+			<ul>
+				<li><a href="pages/news/news_01.html">国家海洋信息中心2022年度公开招聘应届毕业生。</a></li>
+				<li><a href="">开展2022年全国科普日“蓝色希望”海洋科普系列活动。</a></li>
+				<li><a href="">《2022中国海洋发展指数报告》发布。</a></li>
+				<li><a href="">蔚蓝沙龙公益直播 | 科学救助，为爱奔跑。</a></li>
+				<li><a href="">蓝丝带 X 蔚来EPclub｜西沙赴约 守护蔚蓝。</a></li>
+				<li><a href="">桂东出海记丨兼职清垃圾的“海上愚公”。</a></li>
+			</ul>
+		</div>
+		<div id="con_menu_2" style="display:none">
+			<ul>
+				<li><a href="pages/yn/youhui_01.html">大洋办和中国海洋档案馆研讨大洋档案工作。</a></li>
+				<li><a href="">中国海洋档案馆开发大洋档案保存“大洋深处的中国声音”。</a></li>
+				<li><a href="">“蓝色编码里的青春”照片档案展启动。</a></li>
+				<li><a href="">中国海洋档案馆参加第十二届“中国电子文件管理论坛”。</a></li>
+				<li><a href="">中国海洋档案馆承担的国家档案局科技项目顺利通过验收。</a></li>
+				<li><a href="">国家海洋信息中心组织自然资源科普讲解选拔赛系列活动。</a></li>
+			</ul>
+		</div>
+		<div id="con_menu_3" style="display:none">
+			<ul>
+				<li><a href="pages/yn/youhui_01.html">世界海洋日 | 巡“塑”，为鱼儿在大海里畅游。</a></li>
+				<li><a href="">返海“减塑”，科罗娜再创社区共赢新模式。</a></li>
+				<li><a href="">“清洁美丽海湾，促进人海和谐”海洋净滩活动成功举办。</a></li>
+				<li><a href="">环保艺术展亮相青岛，蓝丝带海洋保护协会呼吁保护海洋。</a></li>
+				<li><a href="">多方联手助力守护蔚蓝之光完美收官。</a></li>
+				<li><a href="">一起组队吧，围剿海洋垃圾。</a></li>
+			</ul>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<!--滑动板块结束-->
+		<!--介绍区域开始-->
+		<div class="js">
+			<div class="jss_1">
+			<div class="js_1">
+				<hgroup>
+				<h3>中国海岛网</h3>
+				<h3>━━━━━━</h3>
+				<h3>浙江省舟山市打造“红动蓝湾·和美海岛”岛链式党建联盟</h3>
+				</hgroup>
+				<p>近年来，浙江省舟山市普陀区农业农村局党组围绕“党建引领聚合力，联盟共建促发展”的主题，实施“红色根脉强基”行动。</p>
+				<div class="xq"><a href="https://www.chinaislands.org.cn/c/2022-09-15/77517.shtml">[详情]</a></div>
+			</div>
+			</div>
+			<div class="jss_2">
+			<div class="js_2">
+				<hgroup>
+				<h3>海洋与气候变化</h3>
+				<h3>━━━━━━</h3>
+				<h3>中国气象局发布《中国气候变化蓝皮书（2022）》</h3>
+				</hgroup>
+				<p>根据目前气候系统的综合观测和多项关键指标表明，全球变暖趋势仍在持续。中国升温速率高于同期全球平均水平，是全球气候变化的敏感区。</p>
+				<div class="xq"><a href="https://www.cocc.net.cn/c/2022-09-28/77638.shtml">[详情]</a></div>
+			</div>
+			</div>
+			<div class="jss_3">
+			<div class="js_3">
+				<hgroup>
+				<h3>海域使用论证</h3>
+				<h3>━━━━━━</h3>
+				<h3>自然资源部关于进一步做好海域使用论证评审工作的通知</h3>
+				</hgroup>
+				<p>海域使用论证报告评审（以下简称“论证评审”）是项目用海审核的关键环节，对于科学合理配置海域资源具有重要作用。</p>
+				<div class="xq"><a href="https://www.nmdis.org.cn/c/2022-05-09/76891.shtml">[详情]</a></div>
+			</div>
+			</div>
+			<div class="jss_4">
+			<div class="js_4">
+				<hgroup>
+				<h3>中国海域地网名</h3>
+				<h3>━━━━━━</h3>
+				<h3>自然资源部关于我国东海部分海底地理实体标准名称的公告</h3>
+				</hgroup>
+				<p>为进一步规范有关地名的使用，现将我国东海部分海底地理实体的标准名称予以公布。</p>
+				<div class="xq"><a href="http://www.ccufn.org.cn//web/placename/news_detail.view?id=d6a798c68acd4d088d220838118edb18">[详情]</a></div>
+			</div>
+		</div>
+		</div>
+		<!--介绍区域结束-->
+		<!--新闻区域开始-->
+		<div class="xinwen">
+			<div class="xw_left">
+				<div class="top">
+					<div class="xw_left_bt"><h4>国内海洋新闻</h4></div>
+					<div class="xw_left_more"><a href="https://www.nmdis.org.cn/hyxw/gnhyxw/">更多>></a></div>
+				</div>
+				<div class="xw_content">
+					<ul>
+						<li><a href="#">二○二二厦门国际海洋周活动亮点纷呈！<span>[2022-11-18]</span></a></li>
+						<li><a href="#">山东海洋卫星数据服务平台上线！<span>[2022-11-18]</span></a></li>
+						<li><a href="#">深圳开展红树林湿地清洁活动！<span>[2022-11-18]</span></a></li>
+						<li><a href="#">东海局各级党组织开展“敬老月”系列活动！<span>[2022-11-18]</span></a></li>
+						<li><a href="#">广西强化海域海岛执法监管！<span>[2022-11-18]</span></a></li>
+						<li><a href="#">《2022中国海洋发展指数报告》发布！<span>[2022-11-17]</span></a></li>
+					</ul>
+				</div>
+		</div>
+			<div class="xw_right">
+					<div class="top">
+						<div class="xw_right_bt"><h4>国际海洋新闻</h4></div>
+						<div class="xw_right_more"><a href="https://www.nmdis.org.cn/hyxw/gjhyxw/">更多>></a></div>
+					</div>
+					<div class="xw_content">
+						<ul>
+							<li><a href="#">温室气体高排放影响近九成海洋生物生存！<span>[2022-08-24]</span></a></li>
+							<li><a href="#">普京批准俄新版海洋学说！<span>[2022-08-01]</span></a></li>
+							<li><a href="#">联合国海洋大会呼吁开启"海洋行动新篇章"！<span>[2022-07-04]</span></a></li>
+							<li><a href="#">联合国海洋大会呼吁加大海洋行动力度！<span>[2022-07-04]</span></a></li>
+							<li><a href="#">印度洋海底热泉生态系统保护有了科学依据！<span>[2022-06-07]</span></a></li>
+							<li><a href="#">巴拿马加强海洋生态系统保护！<span>[2022-05-17]</span></a></li>
+						</ul>
+					</div>
+					</div>
+				</div>
+		<!--新闻区域结束-->
+		<!--图片翻转区域开始-->
+		<div class="tufan">
+		<div class="picbox">
+			<img class="yuan" src="image/y_11.png" width="220px" height="220px" alt=""/>
+			<img class="fan" src="image/y_1.png" width="220px" height="220px" alt=""/>
+		</div>
+		<div class="picbox">
+			<img class="yuan" src="image/y_22.png" width="220px" height="220px" alt=""/>
+			<img class="fan" src="image/y_2.png" width="220px" height="220px" alt=""/>
+		</div>
+		<div class="picbox">
+			<img class="yuan" src="image/y_33.png" width="220px" height="220px" alt=""/>
+			<img class="fan" src="image/y_3.png" width="220px" height="220px" alt=""/>
+		</div>
+		<div class="picbox">
+			<img class="yuan" src="image/y_44.png" width="220px" height="220px" alt=""/>
+			<img class="fan" src="image/y_4.png" width="220px" height="220px" alt=""/>
+		</div>
+		</div>
+		<!--图片翻转区域结束-->
+		<!--滑动板块介绍开始-->
+		<div id="T">
+			<div id="Mbox">
+				<ul>
+					<li id="m1" onMouseOver="setTab('m',1,6)" class="hover">海洋生态</li>
+					<li id="m2" onMouseOver="setTab('m',2,6)">生态问题</li>
+					<li id="m3" onMouseOver="setTab('m',3,6)">生态建设</li>
+					<li id="m4" onMouseOver="setTab('m',4,6)">国内趋势</li>
+					<li id="m5" onMouseOver="setTab('m',5,6)">海洋生物</li>
+					<li id="m6" onMouseOver="setTab('m',6,6)">保护组织</li>
+				</ul>
+			</div>
+			<div id="Cbox">
+			<div id="con_m_1" class="hover">
+				<ul>
+					<li><a href="pages/news/news_01.html">海底地形底构造复杂，有海底山脉、高原、盆地、峡谷和海沟等各种地形</a></li>
+					<li><a href="">已发现海水含有80多种元素，其化合物的种类则更多</a></li>
+					<li><a href="">深层带和深渊带水温一般是1～4℃，许多海洋生物往往只能在一定水层生活</a></li>
+					<li><a href="">通常将海域分为：大陆架、大陆坡、大洋盆地、海沟</a></li>
+					<li><a href="">除海流外，波浪、潮汐、光、温度和水压力等都是影响海洋生物的重要物理因素</a></li>
+					<li><a href=""> 大洋区的水层可垂直划分为：上层带、中层带、次中层带、半深带、深层带、深渊带</a></li>
+					<li><a href="">绝大部分深海或大洋底层的沉积物，都是由海洋生物的壳和骨骼所造成</a></li>
+					<li><a href="">钠、镁、钙、钾、锶、氯、硫、碳、溴、氟、硼等，占海水中溶解盐类的99.8～99.9%</a></li>
+				</ul>
+			</div>
+			<div id="con_m_2" style="display:none">
+				<ul>
+					<li><a href="pages/yn/youhui_01.html">海洋环境生态问题包括两个方面：一是海洋污染，二是海洋生态破坏</a></li>
+					<li><a href="">海洋污染物绝大部分来源于陆地上的生产过程</a></li>
+					<li><a href="">除海洋污染外，人类的生产活动，以及自然环境的变化，都会使海洋生态环境遭到破坏和改变</a></li>
+					<li><a href="">人类对某些海洋生物的过度捕捞，导致海洋生物资源数量减少，使部分物种濒临灭绝</a></li>
+					<li><a href="">海洋开发活动还缺乏综合的、长远的规划，综合效益比较差</a></li>
+					<li><a href="">工业生产过程中排出的废弃物是海洋污染物的主要来源，它们集中在大型港口和工业城市附近</a></li>
+					<li><a href="">有些海岸工程建设和围海造田缺乏科学论证，破坏了海岸环境和海岸带生态系统</a></li>
+					<li><a href="">污染物进入海洋，污染海洋环境，危害海洋生物，甚至危及人类的健康</a></li>
+				</ul>
+				</div>
+				<div id="con_m_3" style="display:none">
+					<ul>
+						<li><a href="pages/yn/youhui_01.html">尊重海洋、顺应海洋、保护海洋 节约优先、保护优先、自然恢复</a></li>
+						<li><a href="">以绿色发展为主，开发保护并重</a></li>
+						<li><a href="">以陆海统筹为主，实现区域联动</a></li>
+						<li><a href="">以生态保护为主，规划海洋发展</a></li>
+						<li><a href="">以试点带动为主，推进生态文明</a></li>
+						<li><a href="">保护海洋生态环境，推动海洋开发方式向循环利用型转变</a></li>
+						<li><a href="">全力遏制海洋生态环境不断恶化趋势，坚持污染防治和生态修复并举</a></li>
+						<li><a href="">以改善海洋生态环境质量为根本，以推动经济高质量发展和生态环境高水平保护为导向</a></li>
+					</ul>
+				</div>
+				<div id="con_m_4" style="display:none">
+					<ul>
+						<li><a href="pages/yn/youhui_01.html">我国是海洋大国，海域辽阔、岸线漫长、岛屿众多、资源丰富、生态多样</a></li>
+						<li><a href="">目前我国沿海地区黑水入海、非法围填海、垃圾漫滩等环境问题突出</a></li>
+						<li><a href="">海洋生态环境形势严峻，处于污染排放和环境风险的高峰期、生态退化和灾害频发的叠加期</a></li>
+						<li><a href="">我国海洋生态环境治理仍然存在一些突出短板。生态环境保护责任尚未根本落实</a></li>
+						<li><a href="">根据近年来的海洋微塑料试点监测结果，微塑料在我国近海普遍检出</a></li>
+						<li><a href="">海洋生态环境监管工作负荷重、难度大、专业性强、硬件要求高、监管机构不全、监管能力薄弱</a></li>
+						<li><a href="">从改革开放开始到2012年，经济社会高速发展，海洋环境质量呈现下降趋势</a></li>
+						<li><a href="">2012年以来，经济社会发展步入新常态，海洋环境质量整体企稳向好</a></li>
+					</ul>
+				</div>
+				<div id="con_m_5" style="display:none">
+					<ul>
+						<li><a href="pages/yn/youhui_01.html">海洋生物包括海洋动物、海洋植物、微生物及病毒等，其中海洋动物包括无脊椎动物和脊椎动物</a></li>
+						<li><a href="">无脊椎动物包括各种螺类和贝类。脊椎动物包括各种鱼类和大型海洋动物，如鲸鱼，鲨鱼等</a></li>
+						<li><a href="">海洋里已知的海洋生物有21万种，预计实际的数量则在这个数字的10倍以上，即210万种</a></li>
+						<li><a href="">经过几十年来海洋科技工作者的调查研究，已在我国管辖海域记录到了20278 种海洋生物</a></li>
+						<li><a href="">从2000年开始，平均每星期就有3个新的海洋物种被发现</a></li>
+						<li><a href="">海洋哺乳动物是哺乳类中适于海栖环境的特殊的类群，通常被人们称作为海兽</a></li>
+						<li><a href="">鱼类是脊椎动物中最为低级的一个类群，海洋鱼类构成了我国海洋水产品的重要基础</a></li>
+						<li><a href="">在辽阔而富饶的海洋里，除了生活着形形色色的动物之外，还有种类繁多、千姿百态的海洋植物</a></li>
+					</ul>
+				</div>
+				<div id="con_m_6" style="display:none">
+					<ul>
+						<li><a href="pages/yn/youhui_01.html">蓝丝带海洋保护协会——中国海洋保护领跑者</a></li>
+						<li><a href="">蓝丝带协会是中国成立较早，拥有志愿者人数最多的全国最大的海洋公益机构</a></li>
+						<li><a href="">致力于海洋垃圾监测与治理、海洋生态资源保护、海洋科普、海洋保护网络建设等</a></li>
+						<li><a href="">蓝丝带海洋保护协会的使命：保护海洋生态，人海和谐共生</a></li>
+						<li><a href="">海洋守护者协会是一个专门保护鲸鱼、鲨鱼、海狮、海豹等海洋动物的组织</a></li>
+						<li><a href="">海洋守护者协会是美国的一个非营利的、注册免税的组织，且是荷兰的一个已注册的基金会</a></li>
+						<li><a href="">海洋守护者协会建设宗旨：相信海洋赋予人类的同时需要我们共同来保护</a></li>
+						<li><a href="">Oceanic Preservation Society是一个非营利组织，创造电影、摄影和媒体，激发人们保护海洋</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--滑动板块介绍结束-->
+		<!--图片区域开始-->
+		<div class="tu">
+			<img src="image/t_1.jpg" width="160px" height="220px"/>
+			<img src="image/hy.jpg" width="160px" height="220px"/>
+			<img src="image/t_2.jpg" width="160px" height="220px"/>
+			<img src="image/jj.jpg" width="160px" height="220px"/>
+			<img src="image/t_3.jpg" width="160px" height="220px"/>
+		</div>
+		<!--图片区域结束-->
+		<!--人物介绍区域开始-->
+		<div class="wenzi">
+			<h1>聆听海洋的声音</h1>
+			<header>我们是海洋守护者</header>
+			<!--轮播图区域开始-->
+			<div class="demo">
+				<!-- 创建图片存储容器 -->
+				<div class="demo1">
+					<!-- 引入轮播图图片 -->
+					<img src="image/dd_1.png" alt=""/>
+					<img src="image/dd_2.png" alt=""/>
+			 		<img src="image/dd_3.png" alt=""/>
+					<img src="image/dd_4.png" alt=""/>
+					<img src="image/dd_5.png" alt=""/>
+				</div>
+			</div>
+			<!--轮播图区域结束-->
+		</div>
+		<!--人物介绍区域结束-->
+		<!--海洋科普区域开始-->
+		<div class="hykp">
+		<div class="hykp1">
+			<h1>海洋科普</h1>
+			<h3>━━━━━━</h3>
+			<div class="zhezhao">
+				<hgroup>
+				<h2>世 界 海 洋 日</h2>
+				<h2>人与自然和谐共生</h2>
+				<h2></h2>
+				</hgroup>
+				<img src="image/hykp_1.jpg" width="240px" height="240px"/>
+			</div>
+			<div class="jieshao">
+				<h2>世界海洋日</h2>
+				<p>联合国于第63届联合国大会上将每年的6月8日确定为“世界海洋日”（World Oceans Day）。联合国秘书长潘基文就此发表致辞时指出，人类活动正在使海洋世界付出可怕的代价，个人和团体都有义务保护海洋环境，认真管理海洋资源。
+					2009年联合国将首个世界海洋日的主题确定为“我们的海洋，我们的责任”并将其日期调整到6月8日。2017年世界海洋日的主题是“我们的海洋，我们的未来（Our oceans, our future）”。
+					2021年6月8日是第十三个“世界海洋日”，2021世界海洋日的主题是“保护海洋生物多样性 人与自然和谐共生”。
+					2022年世界海洋日暨全国海洋宣传日主题为“保护海洋生态系统人与自然和谐共生”。</p>
+				</div>
+		</div>
+		<div class="hykp2">
+			<div class="jieshao">
+				<h2>鲸豚搁浅，该不该将它推回大海？</h2>
+				<p>近年来，鲸豚搁浅事件多发，每每遇见鲸豚搁浅，大多数公众的第一反应是想尽办法将其推回大海，但这种方式是否有效，一直备受争议。
+					2022年4月30日，海南三亚湾一头搁浅海豚，因救助不当呛水死亡，海豚搁浅时，围观群众多次通过拖拽将海豚送回海里。
+					2022年8月31日，海南三亚湾搁浅一海豚，在现场人员的帮助下返回大海。
+					目前，救助方式主要有三种：
+					第一种，在鲸类身体状况允许的情况下，可以直接将其放生回海洋中。
+					第二种，如果鲸类身体状况良好，但缺少放生条件，可以对鲸类进行保持水分护理，待涨潮后使其自行游走。
+					第三种，如果鲸类受伤严重，需要将其转移至人工环境，待康复后再放归海洋。</p>
+				</div>
+				<div class="zhezhao">
+					<hgroup>
+					<h2>海 洋 科 普</h2>
+					<h2>科学救助 为爱奔跑</h2>
+					<h2></h2>
+					</hgroup>
+					<img src="image/hykp_2.jpg" width="240px" height="240px"/>
+				</div>
+		</div>
+		</div>
+		<!--海洋科普区域结束-->
+		<!--新闻介绍区域开始-->
+		<div class="xw">
+			<h1>海洋守护者新闻</h1>
+			<p>━━━━━━</p>
+			<div class="xw_tu">
+				<div class="imgdesc_1">
+				<div class="imgd">
+				    <img src="image/xw_1.png" alt="Forest">
+				  <div class="desc">与自然共未来！</div>
+				</div>
+				</div>
+				<div class="imgdesc_2">
+				<div class="imgd">
+				    <img src="image/xw_2.png" alt="Forest">
+				  <div class="desc">蓝丝带紧急救援搁浅海豚！</div>
+				</div>
+				</div>
+				<div class="imgdesc_3">
+				<div class="imgd">
+				    <img src="image/xw_3.png" alt="Forest">
+				  <div class="desc">海洋环境保护项目正式启动！</div>
+				</div>
+				</div>
+				<div class="imgdesc_4">
+				<div class="imgd">
+				    <img src="image/xw_4.png" alt="Forest">
+				  <div class="desc">逸起扬帆，守蔚蓝海！</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--新闻介绍区域结束-->
+		<!--全球介绍区域开始-->
+		<div class="qq">
+			<h1>保护全球海洋动物</h1>
+			<p>━━━━━━</p>
+			<div class="qqtu"></div>
+		</div>
+		<!--全球介绍区域结束-->
+		<!--友情链接区域开始-->
+		<div class="youqinglink">
+			<select name="select" style="width:440px;" language=javascript onchange= "location.href=this.value">
+				<option selected="selected" value="http://www.jquerycn.cn" >⚯⚯⚯⚯ 国内海洋相关网站 ⚯⚯⚯⚯</option>
+				<option value="https://www.nmdis.org.cn">中国海洋信息网</option>
+				<option value="https://www.ch-blueocean.org">蓝丝带海洋保护协会</option>
+				<option value="https://www.nmmba.gov.tw">國立海洋生物博物館</option>
+				<option value="http://ocean.china.com.cn">中国海洋——中国海洋外宣第一官网 海洋门户网站</option>
+			</select>
+			<select name="select" style="width:440px;" language=javascript onchange= "location.href=this.value">
+				<option selected="selected" value="http://www.jquerycn.cn" >⚯⚯⚯⚯ 国外海洋相关网站 ⚯⚯⚯⚯</option>
+				<option value="https://www.iucn.org">IUCN（世界自然保护联盟）</option>
+				<option value="https://seashepherd.org">Sea Shepherd Conservation Society</option>
+				<option value="https://www.unep.org/">UNEP - UN Environment Programme</option>
+			</select>
+		</div>
+		<!--友情链接区域结束-->
+		<!--图文区域开始-->
+		<div class="tuwen">
+			<img src="image/jy.jpg" width="100%" height="450px"/>
+			<h1>━━━━━━</h1>
+			<h2>World Oceans Day (8 June)</h2>
+			<p>Protecting marine biodiversity and harmonious coexistence between man and nature</p>
+		</div>
+		<!--图文区域结束-->
+		<!--版权区域开始-->
+		<div class="footer">
+			<img src="image/ewm.png" width="100px" height="100px"/><br>
+			<a href = "zc.html"><button class="button">加入我们</button></a>
+			<p>版权 © 20级计算机信息管理班 赵晓端<br>
+				Level 20 Computer Information Management Class Zhao Xiao Duan<br>
+				蒙ICP备013579号-1 蒙公网安备 1101201192022号
+			</p>
+		</div>
+		<!--版权区域结束-->
+		<!--二维码固定显示(点击回到顶部)区域开始-->
+		<a href="#top" target="_self"><img style="position:fixed; right:0; top:80px; z-index:999; width:80px;" src="image/2wm.png" /></a>
+		<!--二维码固定显示(点击回到顶部)区域结束-->
+	</body>
+</html>
